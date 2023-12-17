@@ -13,5 +13,4 @@ spec:
       creationTimestamp: null
       name: newrelic-secret
       namespace: backend
-    type: Opaque
 
