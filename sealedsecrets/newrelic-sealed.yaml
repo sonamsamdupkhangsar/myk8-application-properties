@@ -1,0 +1,17 @@
+apiVersion: bitnami.com/v1alpha1
+kind: SealedSecret
+metadata:
+  creationTimestamp: null
+  name: newrelic-secret
+  namespace: default
+spec:
+  encryptedData:
+    newreliclicensekey: AgBxTdTN/i+EjiXafgGZBoLvE5OuWfTkzUwMA0z/7/YniWY0kCWEkmNBL45m0b6KOn+GE7gqe/MdIan7a93lhOU/Ov0eSA1sYRFiPMaQ8rF8bqgne0orivjJexTFvvtV4q+p3KsZvmAiA2xU/shWB1u5oOkbxyanFn8VzPdthFVlnmRykmZPkh99OvG7uoZSb/AUwgczCsuUjWuD07cW++XX6oWlF1BaF6sP9pNg4RyQwbyzXh4pTLlMrWr6MdltfeXzNug7TxcRCgvVKQ4Ljutgtu21cr3YIEHuctwSKJMYXgqUcNYsSd5juNdMZNmXQ6aYzjd5CZcNZvShIYjKjwzUB7Hv+vX4kkE0F4erGbbuo4Jn3V6w0Q89qog541e+RauV6QpW4qam9bcpyUjfapFolim6w97n0EwzWfLtKNEmmc6YABd/kOkouJyK46wSOPzu7ViflFbjZupYbPzi6NU8GfSaPqkAL/A/Wa9lWoUrwQr05cSXXwFGz7dSspKRvk3ng5YaB0pejc5M2qH7w/mQCUoWo8wh+UEMbJOtjANKL/lqjmURlg2Q4Nx9CC3/rjmxWDa8261bwBmqpgT3GhD8tSnKicv16vO8dFucZr4RS1wtAIT8KUgD0zfQMv+827WLlNLInhipUoBxywgISqMwsasijHg6oeW+fvzioVVaJNTr1OYYuBTWIyxosxaHOmFauCikoMgCJ0bgm68yJE6ZYzYLb3AtfjI8Pe6PQxJJmV7QjLQUNg8G
+  template:
+    data: null
+    metadata:
+      creationTimestamp: null
+      name: newrelic-secret
+      namespace: default
+    type: Opaque
+
