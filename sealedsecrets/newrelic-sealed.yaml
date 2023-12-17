@@ -12,6 +12,6 @@ spec:
     metadata:
       creationTimestamp: null
       name: newrelic-secret
-      namespace: default
+      namespace: backend
     type: Opaque
 
